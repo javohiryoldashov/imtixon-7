@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../includes/head') %> 
+<link rel="stylesheet" href="./css/groups.css">
+<body>
+    <div class="container1 body">
+       <%- include('../includes/header') %> 
+       <main class="main">
+        <!-- NAME -->
+        <div class="Name">
+            <h1>Groups</h1>
+        </div>
+        <!-- POST -->
+        <div class="padding_cont row mb-4">
+            <h1>Yangi O`quvchi qo`shish</h1>
+        <form action="/groups" method="post" class="row d-flex justify-content-between flex-wrap mt-2">
+            <div class="size form-group mx-2 mb-4">
+                <label for="inputEmail4">Grupa nomi</label>
+                <input name="groupName" type="text" class="form-control" id="inputEmail4" placeholder="Ism...">
+            </div>
+           
+
+            <div class="size form-group ms-2">
+                <label for="lessons">Courses</label>
+                <select name="coursName" id="lessons" class="form-control form-top-input-user">
+                    <% Courses.map((e, i)=>{  %>  
+                    <option value="<%= e.name%>"><%= e.name %> </option>
+                    <% }) %> 
+                </select>
+            </div>
+
+            <div class="size form-group mx-2">
+                <label for="inputPassword4">O`qtuvchi ismi</label>
+                <select name="teacherName" id="group" class="form-control form-top-input-teacher"> 
+
+                </select>
+            </div>
+
+            <div class="size form-group ms-2">
+                <label for="lessons">Days</label>
+                <select name="groupDays" id="lessons" class="form-control"> 
+                    <option value="DU-CHOR-JUMA">DU-CHOR-JUMA</option>
+                    <option value="SE-PA-SH">SE-PA-SH</option>
+                </select>
+            </div>
+       
+            <div class="size form-group mx-2">
+                <label for="group">Hours</label>
+                <select name="groupHours" id="group" class="form-control"> 
+                    <option value="09:00-11:00">09:00-11:00</option>
+                    <option value="14:00-16:00">14:00-16:00</option>
+                    <option value="17:00-19:00">17:00-19:00</option>
+                </select>
+            </div>
+
+            <button type="submit" class="from_btn mx-3  btn btn-primary">Joylashtirish</button>
+      </form>
+        </div>
+        <!-- ALL STUDENTS -->
+        <div class="padding_cont cardss">
+            <div class="section_cards">
+                <h1 class="groups_cards">Mavjud Gruxlar</h1>
+            </div>
+            <!-- cards  -->
+            <div class="birnima_group list_cards">
+                <!-- cardessss -->
+                <% Groups.map(e=>{ %> 
+                <div class="card_card">
+                    <div class="card_name">
+                        <h2><%= e.groupName %> </h2>
+                    </div>
+                    <div class="card_desc">
+                        <div class="card_desc_tiitles">
+                            <div class="d-flex justify-content-around w-100">
+                                <p>O’qituvchi:  </p>
+                                <p><%= e.teacherName %> </p>
+                            </div>
+
+                            <div class="d-flex justify-content-around w-100">
+                                <p>Curs nomi:  </p>
+                                <p><%= e.coursName %> </p>
+                            </div>
+
+                            <div class="d-flex justify-content-around w-100">
+                                <p>Dars kunlari:  </p>
+                                <p><%= e.groupDays %> </p>
+                            </div>
+
+                            <div class="d-flex justify-content-around w-100">
+                                <p>Dars vaqti:  </p>
+                                <p><%= e.groupHours %> </p>
+                            </div>
+
+                            <div class="d-flex justify-content-around w-100">
+                                <p>O’quvchilar soni  </p>
+                                <p>25ta</p>
+                            </div>
+
+                        </div>
+                      
+                    </div>
+                </div>
+                <% }) %> 
+
+            </div>
+    </main>
+    </div>
+
+
+    
+</body>
+<script src="./js/groups.js"></script>
+</html>

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "groupName": "nt-1",
+        "coursName": "back-end",
+        "teacherName": "Baxtyor",
+        "groupDays": "SE-PA-SH",
+        "groupHours": "09:00-11:00"
+    },
+    {
+        "id": 2,
+        "groupName": "nt-2",
+        "coursName": "front-end",
+        "teacherName": "Botir",
+        "groupDays": "DU-CHOR-JUMA",
+        "groupHours": "14:00-16:00"
+    },
+    {
+        "id": 3,
+        "groupName": "nt-3",
+        "coursName": ".NET",
+        "teacherName": "Eshmat",
+        "groupDays": "SE-PA-SH",
+        "groupHours": "14:00-16:00"
+    },
+    {
+        "id": 4,
+        "groupName": "nt-4",
+        "coursName": "front-end",
+        "teacherName": "Shuxratbek",
+        "groupDays": "SE-PA-SH",
+        "groupHours": "17:00-19:00"
+    },
+    {
+        "id": 5,
+        "groupName": "nt-5",
+        "coursName": "back-end",
+        "teacherName": "Axror",
+        "groupDays": "SE-PA-SH",
+        "groupHours": "14:00-16:00"
+    },
+    {
+        "id": 6,
+        "groupName": "nt-6",
+        "coursName": ".NET",
+        "teacherName": "Sharapat",
+        "groupDays": "DU-CHOR-JUMA",
+        "groupHours": "17:00-19:00"
+    },
+    {
+        "id": 7,
+        "groupName": "nt-7",
+        "coursName": "back-end",
+        "teacherName": "Baxtyor",
+        "groupDays": "SE-PA-SH",
+        "groupHours": "17:00-19:00"
+    },
+    {
+        "id": 9,
+        "groupName": "nt-8",
+        "coursName": "GO-lang",
+        "teacherName": "Ravshan",
+        "groupDays": "DU-CHOR-JUMA",
+        "groupHours": "17:00-19:00"
+    },
+    {
+        "id": 10,
+        "groupName": "nt-9",
+        "coursName": "grafick-D",
+        "teacherName": "Toshmat",
+        "groupDays": "DU-CHOR-JUMA",
+        "groupHours": "09:00-11:00"
+    }
+]

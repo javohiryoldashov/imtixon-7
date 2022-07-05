@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../includes/head') %> 
+<link rel="stylesheet" href="./css/home.css">
+<body>
+    <div class="container1 body">
+       <%- include('../includes/header') %> 
+        <main>
+            <div class="Name">
+                <h1>Home</h1>
+            </div>
+
+            <div class="cards_home">
+                <a href="/students" class="cards_home_card">
+                    <p>Jami o’quvchilar soni:   </p>
+                    <span>
+                    <%= Students.length - 1 +1%>ta 
+                    </span>
+                </a>
+
+                <a href="/teacher" class="cards_home_card">
+                    <p>O’qituvchilar soni:   </p>
+
+                    <span><%= Teachers.length -1%> ta</span>
+                </a>
+
+                <a href="/courses" class="cards_home_card">
+                    <p>Jami kurslar soni:   </p>
+
+                    <span><%= Courses.length -1 %>  ta</span>
+                </a>
+
+                <a href="/groups" class="cards_home_card">
+                    <p>Jami guruhlar soni   </p>
+
+                    <span><%= Groups.length -1 %>  ta</span>
+                </a>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>

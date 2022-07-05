@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../includes/head') %> 
+<link rel="stylesheet" href="./css/teachers.css">
+<body>
+    <div class="container1 body">
+        <%- include('../includes/header') %> 
+         <main class="">
+             <!-- NAME -->
+             <div class="Name">
+                 <h1>Teachers</h1>
+             </div>
+             <!-- POST -->
+             <div class="padding_cont row">
+                 <h1>Yangi O`quvchi qo`shish</h1>
+             <form method="post" action="/teacher" class="row d-flex justify-content-between flex-wrap mt-2">
+                 <div class="size form-group mx-2 mb-4">
+                     <label for="inputEmail4">Ism kiriting</label>
+                     <input name="name" type="text" class="form-control" id="inputEmail4" placeholder="Ism...">
+                 </div>
+                 <div class="size form-group mx-2">
+                     <label for="inputPassword4">Telefon raqami kiriting</label>
+                     <input name="phoneNumber" type="number" class="form-control" id="inputPassword4" placeholder="phone">
+                 </div>
+ 
+                 <div class="size form-group ms-2">
+                     <label for="lessons">Yo`nalish</label>
+                     <select name="typeS2" id="lessons" class="form-control"> 
+                         <% allCourses.map((e,i)=>{ %> 
+                         <option value="<%= e.name%>"><%= e.name %> </option>
+                         <% }) %> 
+                       
+                     </select>
+                 </div>
+            
+                 
+ 
+                 <button type="submit" class="from_btn mx-3 w-25  btn btn-primary">Jonatish</button>
+           </form>
+             </div>
+             <!-- ALL STUDENTS -->
+             <div class="padding_cont mt-4 birnima">
+                 <table class="table">
+                     <thead class="thead_dark">
+                       <tr>
+                         <th scope="col">N⁰</th>
+                         <th scope="col">Ism</th>
+                         <th scope="col">Tel Raqami</th>
+                         <th scope="col" colspan="2">Kursi turi</th>
+                       </tr>
+                     </thead>
+                     <tbody class="tbody">
+                         <% allTeachers.map((e,i)=> {  %> 
+                       <tr>
+                         <th scope="row"><%= i +1 %> </th>
+                         <td><%= e.name %>  </td>
+                         <td><%= e.phoneNumber %> </td>
+                         <td><%= e.course %> </td>
+                         <td onclick="hendelDelete('<%= e.id %>')">
+                             <img src="./images/delete.svg" alt="">
+                         </td>
+                       </tr>
+                        <%  }) %> 
+                     </tbody>
+                   </table>
+             </div>
+         </main>
+     </div>
+</body>
+<script src="./js/main.js"></script>
+</html>

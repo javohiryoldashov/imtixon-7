@@ -1,0 +1,16 @@
+require('dotenv').config()
+const express = require('express')
+const { join } = require('path')
+const app = express()
+const ejs = require('ejs')
+const cookieParser = require('cookie-parser')
+const router = require('./routes/routes')
+
+app.set('view engen', 'ejs')
+app.use(express.static(join(__dirname, 'public')))
+app.set('views', __dirname + '/views/pages')
+app.use(express.urlencoded({extended: true}))
+app.use(cookieParser())
+app.use(router.router)
+
+app.listen(process.env.PORT || 9900, ()=>console.log(process.env.PORT || 9900))

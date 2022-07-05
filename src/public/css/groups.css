@@ -1,0 +1,147 @@
+/* body{
+    background-color: black;
+} */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 50;
+}
+.body{
+    display: flex;
+    width: 100%;
+
+}
+.body>header{
+    overflow:hidden;
+    width: 20%;
+    height: 100vh;
+    background-color: #2F49D1;
+    color: white;
+    /* padding: 0 30px; */
+}
+.body>main{
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    background: rgba(0, 28, 175, 0.1);
+}
+.CRM_Logo{
+    border-bottom: 5px solid white;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.header_ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header_ul_li{
+    width: 100%;
+    /* margin-left: 10px; */
+    padding: 0 10px;
+}
+.header_ul_li:hover{
+    background-color: #01265F;
+    color: white;
+    /* border-right: 2px solid white; */
+}
+
+.header_ul_li_a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header_ul_li_a>img{
+    margin-right: 20px;
+}
+
+.padding_cont{
+    padding: 0 10px;
+}
+
+.Name{
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.size{
+    width: 30%;
+}
+.from_btn{
+    height: 40px;
+    margin-top: 20px;
+    width: 27%;
+}
+
+.section_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.groups_cards{
+    color: #0061F7;
+}
+.groups_search{
+    border-radius: 12px;
+}
+
+.list_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+ }
+.card_card{
+    width: 30%;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 205px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.card_name{
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    background-color: #0061F7;
+}
+.card_desc{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.card_desc_tiitles{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.birnima_group{
+    height:360px;
+    overflow-y: auto;
+}
+
+.birnima_group::-webkit-scrollbar{
+    width: 5px;
+    background: transparent;
+}
+
+.birnima_group::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+}

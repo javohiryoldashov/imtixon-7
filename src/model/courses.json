@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "back-end",
+        "price": "8000000 so'm",
+        "type": "standart"
+    },
+    {
+        "id": 2,
+        "name": "front-end",
+        "price": "8000000 so'm",
+        "type": "standart"
+    },
+    {
+        "id": 3,
+        "name": ".NET",
+        "price": "2200000 so'm",
+        "type": "bootcamp"
+    },
+    {
+        "id": 4,
+        "name": "GO-lang",
+        "price": "2200000 so'm",
+        "type": "bootcamp"
+    },
+    {
+        "id": 5,
+        "name": "grafick-D",
+        "price": "700000 so'm",
+        "type": "standart"
+    }
+]

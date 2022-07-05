@@ -1,0 +1,281 @@
+[
+    {
+        "id": 1,
+        "name": "Abdurasul",
+        "phoneNumber": "998998786655",
+        "password": "7777",
+        "role": "admin"
+    },
+    {
+        "id": 2,
+        "name": "Eshmat",
+        "phoneNumber": "909184557",
+        "password": "909184557",
+        "course": ".NET",
+        "role": "teacher"
+    },
+    {
+        "id": 3,
+        "name": "Botir",
+        "phoneNumber": "909184577",
+        "password": "909184577",
+        "course": "front-end",
+        "role": "teacher"
+    },
+    {
+        "id": 4,
+        "name": "Baxtyor",
+        "phoneNumber": "907777777",
+        "password": "907777777",
+        "course": "back-end",
+        "role": "teacher"
+    },
+    {
+        "id": 5,
+        "name": "Sharapat",
+        "phoneNumber": "909144557",
+        "password": "909144557",
+        "course": ".NET",
+        "role": "teacher"
+    },
+    {
+        "id": 6,
+        "name": "Shuxratbek",
+        "phoneNumber": "885552447",
+        "password": "885552447",
+        "course": "front-end",
+        "role": "teacher"
+    },
+    {
+        "id": 7,
+        "name": "Axror",
+        "phoneNumber": "90955885",
+        "password": "90955885",
+        "course": "back-end",
+        "role": "teacher"
+    },
+    {
+        "id": 8,
+        "name": "Eshmat",
+        "phoneNumber": "123456789",
+        "deta": "2022-04-27",
+        "password": "123456789",
+        "course": "back-end",
+        "role": "student",
+        "groups": "nt-1"
+    },
+    {
+        "id": 9,
+        "name": "Botir",
+        "phoneNumber": "321654789",
+        "deta": "2022-05-07",
+        "password": "321654789",
+        "course": "back-end",
+        "role": "student",
+        "groups": "nt-1"
+    },
+    {
+        "id": 10,
+        "name": "Sharapat",
+        "phoneNumber": "963258741",
+        "deta": "2022-05-06",
+        "password": "963258741",
+        "course": "back-end",
+        "role": "student",
+        "groups": "nt-1"
+    },
+    {
+        "id": 11,
+        "name": "Gulomjon",
+        "phoneNumber": "123653205",
+        "deta": "2022-05-06",
+        "password": "123653205",
+        "course": "back-end",
+        "role": "student",
+        "groups": "nt-5"
+    },
+    {
+        "id": 12,
+        "name": "komiljon",
+        "phoneNumber": "7845121215487",
+        "deta": "2022-05-05",
+        "password": "7845121215487",
+        "course": "back-end",
+        "role": "student",
+        "groups": "nt-5"
+    },
+    {
+        "id": 13,
+        "name": "asadbek",
+        "phoneNumber": "90918455787878787",
+        "deta": "2022-05-17",
+        "password": "90918455787878787",
+        "course": "back-end",
+        "role": "student",
+        "groups": "nt-5"
+    },
+    {
+        "id": 14,
+        "name": "Faragat",
+        "phoneNumber": "000114477",
+        "deta": "2022-05-10",
+        "password": "000114477",
+        "course": "front-end",
+        "role": "student",
+        "groups": "nt-2"
+    },
+    {
+        "id": 15,
+        "name": "laylo",
+        "phoneNumber": "33565854",
+        "deta": "2022-05-09",
+        "password": "33565854",
+        "course": "front-end",
+        "role": "student",
+        "groups": "nt-2"
+    },
+    {
+        "id": 16,
+        "name": "nojimjon",
+        "phoneNumber": "110011001",
+        "deta": "2022-05-20",
+        "password": "110011001",
+        "course": "front-end",
+        "role": "student",
+        "groups": "nt-2"
+    },
+    {
+        "id": 17,
+        "name": "Eshmat",
+        "phoneNumber": "7778894456",
+        "deta": "2022-05-05",
+        "password": "7778894456",
+        "course": "front-end",
+        "role": "student",
+        "groups": "nt-4"
+    },
+    {
+        "id": 18,
+        "name": "Botir",
+        "phoneNumber": "909184550",
+        "deta": "2022-05-26",
+        "password": "909184550",
+        "course": "front-end",
+        "role": "student",
+        "groups": "nt-4"
+    },
+    {
+        "id": 19,
+        "name": "Sharapat",
+        "phoneNumber": "909184551",
+        "deta": "2022-05-07",
+        "password": "909184551",
+        "course": "front-end",
+        "role": "student",
+        "groups": "nt-4"
+    },
+    {
+        "id": 20,
+        "name": "mamarayim",
+        "phoneNumber": "444444",
+        "deta": "2022-05-11",
+        "password": "444444",
+        "course": ".NET",
+        "role": "student",
+        "groups": "nt-3"
+    },
+    {
+        "id": 21,
+        "name": "jorabek",
+        "phoneNumber": "554454",
+        "deta": "2022-05-14",
+        "password": "554454",
+        "course": ".NET",
+        "role": "student",
+        "groups": "nt-3"
+    },
+    {
+        "id": 22,
+        "name": "Eshmat",
+        "phoneNumber": "7777777777777",
+        "deta": "2022-04-30",
+        "password": "7777777777777",
+        "course": ".NET",
+        "role": "student",
+        "groups": "nt-3"
+    },
+    {
+        "id": 23,
+        "name": "layloxone",
+        "phoneNumber": "885522114",
+        "deta": "2022-05-11",
+        "password": "885522114",
+        "course": ".NET",
+        "role": "student",
+        "groups": "nt-6"
+    },
+    {
+        "id": 24,
+        "name": "omoneynaxone",
+        "phoneNumber": "90918455777877887",
+        "deta": "2022-04-26",
+        "password": "90918455777877887",
+        "course": ".NET",
+        "role": "student",
+        "groups": "nt-6"
+    },
+    {
+        "id": 25,
+        "name": "asalxone",
+        "phoneNumber": "4466991133778822",
+        "deta": "2022-05-20",
+        "password": "4466991133778822",
+        "course": ".NET",
+        "role": "student",
+        "groups": "nt-6"
+    },
+    {
+        "id": 26,
+        "name": "Davronbek",
+        "phoneNumber": "975084557",
+        "password": "975084557",
+        "course": ".NET",
+        "role": "teacher"
+    },
+    {
+        "id": 27,
+        "name": "Ravshan",
+        "phoneNumber": "885451221",
+        "password": "885451221",
+        "course": "GO-lang",
+        "role": "teacher"
+    },
+    {
+        "id": 28,
+        "name": "Jo'raqul",
+        "phoneNumber": "557894561",
+        "deta": "2023-11-16",
+        "password": "557894561",
+        "course": "GO-lang",
+        "role": "student",
+        "groups": "nt-8"
+    },
+    {
+        "id": 29,
+        "name": "Toshmat",
+        "phoneNumber": "112200121",
+        "password": "112200121",
+        "course": "grafick-D",
+        "role": "teacher"
+    },
+    {
+        "id": 30,
+        "name": "Pulpiniso",
+        "phoneNumber": "445541257844",
+        "deta": "2022-05-07",
+        "password": "4444",
+        "course": "grafick-D",
+        "role": "student",
+        "groups": "nt-9"
+    }
+]
